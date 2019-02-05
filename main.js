@@ -1,7 +1,8 @@
 var gameData = {
-  clicks: 0,
-  clickPerClick: 1
+  bits: 0,
+  bitsPerClick: 1
 }
-function clickBtn(){
-  gameData.clicks += gameData.clickPerClick
+function mineBits(){
+  document.getElementById("bitsMined").innerHTML = gameData.bits + " Bits"
+  gameData.bits += gameData.bitsPerClick
 }
