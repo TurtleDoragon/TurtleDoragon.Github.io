@@ -3,6 +3,6 @@ var gameData = {
   bitsPerClick: 1
 }
 function mineBits(){
-  document.getElementById("bitsMined").innerHTML = gameData.bits + " Bits"
-  gameData.bits += gameData.bitsPerClick
+  document.getElementById("bitsMined").innerHTML = gameData.bits + " Bits";
+  gameData.bits += gameData.bitsPerClick;
 }
